@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0%;
+            height: 100vh;
+            display: flex;
+            background: black;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        
+        .rocket {
+            width: 100px;
+            animation: launch 5s linear infinite;
+        }
+        
+        @keyframes launch {
+            from {
+                transform: translateY(0px);
+            }
+            to {
+                transform: translateY(-100vh);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="draw.jpg" alt="Rocket">
+</body>
+
+</html>
